@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto;
+  text-align: center;
+}
+.heading {
+  font-size: 40px;
+  color: #2d3a35;
+}
+.count {
+  color: #c20a72;
+}
+.about {
+  color: #2d3a35;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button {
+  color: #fff;
+  font-size: 14px;
+  background-color: #007bff;
+  cursor: pointer;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  outline: none;
+}
+.button:hover {
+  background-color: black;
+}
+@media (min-width: 767px){
+  .heading{
+    font-size: 50px;
+  }
+  .about{
+    font-size: 30px;
+  }
+  .button{
+    width: 140%;
+    font-size: 24px;
+  }
+}
